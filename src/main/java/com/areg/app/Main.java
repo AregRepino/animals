@@ -1,5 +1,8 @@
 package com.areg.app;
 
+import com.areg.app.animals.Cat;
+import com.areg.app.animals.Dog;
+
 public class Main {
     public static void main(String[] args) {
 

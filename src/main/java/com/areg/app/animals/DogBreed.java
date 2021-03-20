@@ -1,4 +1,4 @@
-package com.areg.app;
+package com.areg.app.animals;
 
 public enum DogBreed {
     AUSTRALIAN_TERRIER("австралийский терьер"),
