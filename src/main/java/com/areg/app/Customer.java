@@ -1,6 +1,7 @@
-package com.areg.animals;
+package com.areg.app;
 
 // Покупатель
 
 public class Customer {
+
 }

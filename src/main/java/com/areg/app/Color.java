@@ -1,4 +1,4 @@
-package com.areg.animals;
+package com.areg.app;
 
 public enum Color {
     YELLOW("жёлтый"),

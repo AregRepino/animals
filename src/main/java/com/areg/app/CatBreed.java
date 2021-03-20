@@ -1,4 +1,4 @@
-package com.areg.animals;
+package com.areg.app;
 
 public enum CatBreed {
     AMERICAN_BOBTAIL ("американский бобтейл"),
