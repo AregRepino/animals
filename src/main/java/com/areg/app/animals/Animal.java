@@ -1,5 +1,4 @@
 package com.areg.app.animals;
-// повторить Date
 
 import lombok.Data;
 

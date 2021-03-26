@@ -6,7 +6,7 @@ public enum CatBreed {
     BALINESE("балийская кошка"),
     BENGAL("бенгальская кошка"),
     HIMALAYAN("гималайская кошка"),
-    SPHINX("сфинкс");
+    DON_SPHINX("донской сфинкс");
 
 
 
