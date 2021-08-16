@@ -23,8 +23,7 @@ public class Customer {
 
 
 
-//    protected Customer() {
-//    }
+
 
     public Customer(String firstName, String lastName) {
         this.firstName = firstName;

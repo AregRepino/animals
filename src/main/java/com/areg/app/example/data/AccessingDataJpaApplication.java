@@ -25,19 +25,7 @@ public class AccessingDataJpaApplication {
     @Bean
     public CommandLineRunner demo(CustomerRepository repository) {
         return (args) -> {
-            // save a few customers
 
-            //1. что делает строчака 23
-            // строчка 23 сохраняет объект в базе данных
-
-            //как переводится слово save
-            // save - сохранить
-
-            //что он сорхраняет
-            // объект типа Customer
-
-            //что он принимает
-            //Customer
             Customer c = new Customer("Jack", "Bauer");
             repository.save(c);
             repository.save(new Customer("", "Repino"));
@@ -88,9 +76,7 @@ public class AccessingDataJpaApplication {
             log.info("");
 
 
-//            Написать использование методов из класса CustomerRepository
-//            1. Сделать запрос
-//            2. Вывести результат
+
 
             //repository.findAllByFirstNameStartingWithAndLastNameEndingWithOrderByLastNameAsc()
         };

@@ -17,7 +17,7 @@ public interface CustomerRepository extends CrudRepository<Customer, Long> {
 
     long countByLastNameStartingWith (String prefix);
 
-    //Найти все по Первому имени начинающего с И Второму имени заканчивающий С
+    //найти все по имени, начинающемуся с и фамилии, заканчивающемуся Порядком по фамилии по возрастанию
 
     List<Customer> findAllByFirstNameStartingWithAndLastNameEndingWithOrderByLastNameAsc (String prefixFirstName, String lastNameSuffix);
 
